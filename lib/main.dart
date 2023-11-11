@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:prj_wisatacandisi51_flutterpert3/data/candi_data.dart';
+import 'package:prj_wisatacandisi51_flutterpert3/screens/search_screen.dart';
 import 'package:prj_wisatacandisi51_flutterpert3/widgets/detail_screen.dart';
 import 'package:prj_wisatacandisi51_flutterpert3/widgets/profile_info_item.dart';
 import 'package:prj_wisatacandisi51_flutterpert3/widgets/profile_screen.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: ProfileScreen(),
+      home: SearchScreen(),
     );
   }
 }
