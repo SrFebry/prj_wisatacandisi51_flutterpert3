@@ -39,7 +39,8 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: MainScreen(),
+      //home: MainScreen(),
+      home: SignUpScreen(),
     );
   }
 }
